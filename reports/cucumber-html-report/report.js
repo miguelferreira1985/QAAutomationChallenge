@@ -28,14 +28,14 @@ formatter.match({
   "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
 });
 formatter.result({
-  "duration": 488936200,
+  "duration": 465971400,
   "status": "passed"
 });
 formatter.scenario({
   "line": 7,
-  "name": "Verify that 200 code is returned for a susccess reponse",
+  "name": "Verify that 200 code is returned for a success response",
   "description": "",
-  "id": "as-a-user,-i-want-to-see-all-my-collections-on-my-postman;verify-that-200-code-is-returned-for-a-susccess-reponse",
+  "id": "as-a-user,-i-want-to-see-all-my-collections-on-my-postman;verify-that-200-code-is-returned-for-a-success-response",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -59,7 +59,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_send_a_get_request(String)"
 });
 formatter.result({
-  "duration": 3291274400,
+  "duration": 3531733000,
   "status": "passed"
 });
 formatter.match({
@@ -72,7 +72,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_get_a_status_code_in_the_response(int)"
 });
 formatter.result({
-  "duration": 7849300,
+  "duration": 7099700,
   "status": "passed"
 });
 formatter.background({
@@ -91,7 +91,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
 });
 formatter.result({
-  "duration": 96300,
+  "duration": 121800,
   "status": "passed"
 });
 formatter.scenario({
@@ -122,7 +122,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_send_a_get_request(String)"
 });
 formatter.result({
-  "duration": 276658900,
+  "duration": 764935400,
   "status": "passed"
 });
 formatter.match({
@@ -135,7 +135,7 @@ formatter.match({
   "location": "CollectionsDefinition.collections_array_is_in_the_response(String)"
 });
 formatter.result({
-  "duration": 291400,
+  "duration": 249100,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -221,7 +221,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
 });
 formatter.result({
-  "duration": 84600,
+  "duration": 79500,
   "status": "passed"
 });
 formatter.scenario({
@@ -262,7 +262,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_send_a_get_request(String)"
 });
 formatter.result({
-  "duration": 309179000,
+  "duration": 774792900,
   "status": "passed"
 });
 formatter.match({
@@ -279,7 +279,7 @@ formatter.match({
   "location": "CollectionsDefinition.collections_array_contains_field_into_the_the_array(String,String)"
 });
 formatter.result({
-  "duration": 279700,
+  "duration": 325200,
   "status": "passed"
 });
 formatter.background({
@@ -298,7 +298,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
 });
 formatter.result({
-  "duration": 82100,
+  "duration": 94400,
   "status": "passed"
 });
 formatter.scenario({
@@ -339,7 +339,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_send_a_get_request(String)"
 });
 formatter.result({
-  "duration": 295880600,
+  "duration": 767907600,
   "status": "passed"
 });
 formatter.match({
@@ -356,7 +356,7 @@ formatter.match({
   "location": "CollectionsDefinition.collections_array_contains_field_into_the_the_array(String,String)"
 });
 formatter.result({
-  "duration": 235200,
+  "duration": 208300,
   "status": "passed"
 });
 formatter.background({
@@ -375,7 +375,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
 });
 formatter.result({
-  "duration": 97500,
+  "duration": 72500,
   "status": "passed"
 });
 formatter.scenario({
@@ -416,7 +416,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_send_a_get_request(String)"
 });
 formatter.result({
-  "duration": 285150000,
+  "duration": 567805100,
   "status": "passed"
 });
 formatter.match({
@@ -433,7 +433,7 @@ formatter.match({
   "location": "CollectionsDefinition.collections_array_contains_field_into_the_the_array(String,String)"
 });
 formatter.result({
-  "duration": 175800,
+  "duration": 179200,
   "status": "passed"
 });
 formatter.background({
@@ -452,7 +452,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
 });
 formatter.result({
-  "duration": 70200,
+  "duration": 93200,
   "status": "passed"
 });
 formatter.scenario({
@@ -493,7 +493,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_send_a_get_request(String)"
 });
 formatter.result({
-  "duration": 293081000,
+  "duration": 765073900,
   "status": "passed"
 });
 formatter.match({
@@ -510,7 +510,7 @@ formatter.match({
   "location": "CollectionsDefinition.collections_array_contains_field_into_the_the_array(String,String)"
 });
 formatter.result({
-  "duration": 180200,
+  "duration": 178800,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -601,7 +601,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
 });
 formatter.result({
-  "duration": 84600,
+  "duration": 207400,
   "status": "passed"
 });
 formatter.scenario({
@@ -650,7 +650,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_send_a_get_request(String)"
 });
 formatter.result({
-  "duration": 295465400,
+  "duration": 778312300,
   "status": "passed"
 });
 formatter.match({
@@ -663,7 +663,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_get_data_from_db(String)"
 });
 formatter.result({
-  "duration": 21602200,
+  "duration": 22539600,
   "status": "passed"
 });
 formatter.match({
@@ -680,7 +680,7 @@ formatter.match({
   "location": "CollectionsDefinition.data_in_field_on_array_is_correct(String,String)"
 });
 formatter.result({
-  "duration": 229700,
+  "duration": 335500,
   "status": "passed"
 });
 formatter.background({
@@ -699,7 +699,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
 });
 formatter.result({
-  "duration": 99100,
+  "duration": 122500,
   "status": "passed"
 });
 formatter.scenario({
@@ -748,7 +748,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_send_a_get_request(String)"
 });
 formatter.result({
-  "duration": 487688000,
+  "duration": 783268500,
   "status": "passed"
 });
 formatter.match({
@@ -761,7 +761,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_get_data_from_db(String)"
 });
 formatter.result({
-  "duration": 1683200,
+  "duration": 1847000,
   "status": "passed"
 });
 formatter.match({
@@ -778,7 +778,7 @@ formatter.match({
   "location": "CollectionsDefinition.data_in_field_on_array_is_correct(String,String)"
 });
 formatter.result({
-  "duration": 178800,
+  "duration": 206900,
   "status": "passed"
 });
 formatter.background({
@@ -797,7 +797,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
 });
 formatter.result({
-  "duration": 87000,
+  "duration": 125300,
   "status": "passed"
 });
 formatter.scenario({
@@ -846,7 +846,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_send_a_get_request(String)"
 });
 formatter.result({
-  "duration": 446706000,
+  "duration": 521524000,
   "status": "passed"
 });
 formatter.match({
@@ -859,7 +859,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_get_data_from_db(String)"
 });
 formatter.result({
-  "duration": 1304600,
+  "duration": 1282300,
   "status": "passed"
 });
 formatter.match({
@@ -876,7 +876,7 @@ formatter.match({
   "location": "CollectionsDefinition.data_in_field_on_array_is_correct(String,String)"
 });
 formatter.result({
-  "duration": 217700,
+  "duration": 280900,
   "status": "passed"
 });
 formatter.background({
@@ -895,7 +895,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
 });
 formatter.result({
-  "duration": 111300,
+  "duration": 101300,
   "status": "passed"
 });
 formatter.scenario({
@@ -944,7 +944,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_send_a_get_request(String)"
 });
 formatter.result({
-  "duration": 297739800,
+  "duration": 773285700,
   "status": "passed"
 });
 formatter.match({
@@ -957,7 +957,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_get_data_from_db(String)"
 });
 formatter.result({
-  "duration": 1149800,
+  "duration": 1143000,
   "status": "passed"
 });
 formatter.match({
@@ -974,7 +974,7 @@ formatter.match({
   "location": "CollectionsDefinition.data_in_field_on_array_is_correct(String,String)"
 });
 formatter.result({
-  "duration": 227700,
+  "duration": 218000,
   "status": "passed"
 });
 formatter.background({
@@ -993,7 +993,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
 });
 formatter.result({
-  "duration": 73800,
+  "duration": 72300,
   "status": "passed"
 });
 formatter.scenario({
@@ -1024,7 +1024,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_send_a_get_request(String)"
 });
 formatter.result({
-  "duration": 149823200,
+  "duration": 148557300,
   "status": "passed"
 });
 formatter.match({
@@ -1037,7 +1037,7 @@ formatter.match({
   "location": "CollectionsDefinition.i_get_a_status_code_in_the_response(int)"
 });
 formatter.result({
-  "duration": 265000,
+  "duration": 210400,
   "status": "passed"
 });
 });

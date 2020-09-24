@@ -4,7 +4,7 @@
     Background:
       Given I have some collections in Postman
 
-      Scenario: Verify that 200 code is returned for a susccess reponse
+      Scenario: Verify that 200 code is returned for a success response
         When I send a "valid" GET request
         Then I get a 200 status code in the response
 
