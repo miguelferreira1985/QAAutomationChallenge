@@ -1,0 +1,951 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 488936200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have some collections in Postman",
+            "match": {
+              "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Verify that 200 code is returned for a susccess reponse",
+        "description": "",
+        "id": "as-a-user,-i-want-to-see-all-my-collections-on-my-postman;verify-that-200-code-is-returned-for-a-susccess-reponse",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3291274400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I send a \"valid\" GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 10
+                }
+              ],
+              "location": "CollectionsDefinition.i_send_a_get_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7849300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I get a 200 status code in the response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 8
+                }
+              ],
+              "location": "CollectionsDefinition.i_get_a_status_code_in_the_response(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 96300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have some collections in Postman",
+            "match": {
+              "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Verify that collections array is in the response",
+        "description": "",
+        "id": "as-a-user,-i-want-to-see-all-my-collections-on-my-postman;verify-that-collections-array-is-in-the-response",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 276658900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I send a \"valid\" GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 10
+                }
+              ],
+              "location": "CollectionsDefinition.i_send_a_get_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 291400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "\"collections\" array is in the response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "collections",
+                  "offset": 1
+                }
+              ],
+              "location": "CollectionsDefinition.collections_array_is_in_the_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 84600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have some collections in Postman",
+            "match": {
+              "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Verify that collections array contains \"id\", \"name\", \"owner\" and \"uid\" elements",
+        "description": "",
+        "id": "as-a-user,-i-want-to-see-all-my-collections-on-my-postman;verify-that-collections-array-contains-\"id\",-\"name\",-\"owner\"-and-\"uid\"-elements;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 309179000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I send a \"valid\" GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 10
+                }
+              ],
+              "location": "CollectionsDefinition.i_send_a_get_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 279700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "\"collections\" array contains \"id\" field into the array",
+            "match": {
+              "arguments": [
+                {
+                  "val": "collections",
+                  "offset": 1
+                },
+                {
+                  "val": "id",
+                  "offset": 30
+                }
+              ],
+              "location": "CollectionsDefinition.collections_array_contains_field_into_the_the_array(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 82100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have some collections in Postman",
+            "match": {
+              "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Verify that collections array contains \"id\", \"name\", \"owner\" and \"uid\" elements",
+        "description": "",
+        "id": "as-a-user,-i-want-to-see-all-my-collections-on-my-postman;verify-that-collections-array-contains-\"id\",-\"name\",-\"owner\"-and-\"uid\"-elements;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 295880600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I send a \"valid\" GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 10
+                }
+              ],
+              "location": "CollectionsDefinition.i_send_a_get_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 235200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "\"collections\" array contains \"name\" field into the array",
+            "match": {
+              "arguments": [
+                {
+                  "val": "collections",
+                  "offset": 1
+                },
+                {
+                  "val": "name",
+                  "offset": 30
+                }
+              ],
+              "location": "CollectionsDefinition.collections_array_contains_field_into_the_the_array(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 97500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have some collections in Postman",
+            "match": {
+              "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Verify that collections array contains \"id\", \"name\", \"owner\" and \"uid\" elements",
+        "description": "",
+        "id": "as-a-user,-i-want-to-see-all-my-collections-on-my-postman;verify-that-collections-array-contains-\"id\",-\"name\",-\"owner\"-and-\"uid\"-elements;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 285150000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I send a \"valid\" GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 10
+                }
+              ],
+              "location": "CollectionsDefinition.i_send_a_get_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "\"collections\" array contains \"owner\" field into the array",
+            "match": {
+              "arguments": [
+                {
+                  "val": "collections",
+                  "offset": 1
+                },
+                {
+                  "val": "owner",
+                  "offset": 30
+                }
+              ],
+              "location": "CollectionsDefinition.collections_array_contains_field_into_the_the_array(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 70200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have some collections in Postman",
+            "match": {
+              "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Verify that collections array contains \"id\", \"name\", \"owner\" and \"uid\" elements",
+        "description": "",
+        "id": "as-a-user,-i-want-to-see-all-my-collections-on-my-postman;verify-that-collections-array-contains-\"id\",-\"name\",-\"owner\"-and-\"uid\"-elements;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 293081000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I send a \"valid\" GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 10
+                }
+              ],
+              "location": "CollectionsDefinition.i_send_a_get_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 180200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "\"collections\" array contains \"uid\" field into the array",
+            "match": {
+              "arguments": [
+                {
+                  "val": "collections",
+                  "offset": 1
+                },
+                {
+                  "val": "uid",
+                  "offset": 30
+                }
+              ],
+              "location": "CollectionsDefinition.collections_array_contains_field_into_the_the_array(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 84600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have some collections in Postman",
+            "match": {
+              "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Verify that the data in the collections response is the correct",
+        "description": "",
+        "id": "as-a-user,-i-want-to-see-all-my-collections-on-my-postman;verify-that-the-data-in-the-collections-response-is-the-correct;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 295465400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I send a \"valid\" GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 10
+                }
+              ],
+              "location": "CollectionsDefinition.i_send_a_get_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21602200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I get \"id\" data from the DB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "id",
+                  "offset": 7
+                }
+              ],
+              "location": "CollectionsDefinition.i_get_data_from_db(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 229700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Data in \"id\" field on \"collections\" array in the response match with the data in the DB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "id",
+                  "offset": 9
+                },
+                {
+                  "val": "collections",
+                  "offset": 23
+                }
+              ],
+              "location": "CollectionsDefinition.data_in_field_on_array_is_correct(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 99100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have some collections in Postman",
+            "match": {
+              "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Verify that the data in the collections response is the correct",
+        "description": "",
+        "id": "as-a-user,-i-want-to-see-all-my-collections-on-my-postman;verify-that-the-data-in-the-collections-response-is-the-correct;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 487688000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I send a \"valid\" GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 10
+                }
+              ],
+              "location": "CollectionsDefinition.i_send_a_get_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1683200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I get \"name\" data from the DB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "name",
+                  "offset": 7
+                }
+              ],
+              "location": "CollectionsDefinition.i_get_data_from_db(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Data in \"name\" field on \"collections\" array in the response match with the data in the DB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "name",
+                  "offset": 9
+                },
+                {
+                  "val": "collections",
+                  "offset": 25
+                }
+              ],
+              "location": "CollectionsDefinition.data_in_field_on_array_is_correct(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 87000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have some collections in Postman",
+            "match": {
+              "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Verify that the data in the collections response is the correct",
+        "description": "",
+        "id": "as-a-user,-i-want-to-see-all-my-collections-on-my-postman;verify-that-the-data-in-the-collections-response-is-the-correct;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 446706000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I send a \"valid\" GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 10
+                }
+              ],
+              "location": "CollectionsDefinition.i_send_a_get_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1304600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I get \"owner\" data from the DB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "owner",
+                  "offset": 7
+                }
+              ],
+              "location": "CollectionsDefinition.i_get_data_from_db(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Data in \"owner\" field on \"collections\" array in the response match with the data in the DB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "owner",
+                  "offset": 9
+                },
+                {
+                  "val": "collections",
+                  "offset": 26
+                }
+              ],
+              "location": "CollectionsDefinition.data_in_field_on_array_is_correct(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 111300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have some collections in Postman",
+            "match": {
+              "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Verify that the data in the collections response is the correct",
+        "description": "",
+        "id": "as-a-user,-i-want-to-see-all-my-collections-on-my-postman;verify-that-the-data-in-the-collections-response-is-the-correct;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 297739800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I send a \"valid\" GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 10
+                }
+              ],
+              "location": "CollectionsDefinition.i_send_a_get_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1149800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I get \"uid\" data from the DB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "uid",
+                  "offset": 7
+                }
+              ],
+              "location": "CollectionsDefinition.i_get_data_from_db(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Data in \"uid\" field on \"collections\" array in the response match with the data in the DB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "uid",
+                  "offset": 9
+                },
+                {
+                  "val": "collections",
+                  "offset": 24
+                }
+              ],
+              "location": "CollectionsDefinition.data_in_field_on_array_is_correct(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 73800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have some collections in Postman",
+            "match": {
+              "location": "CollectionsDefinition.i_have_some_collections_in_postman()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "Verify that 401 code returned from the service when the request is made without token",
+        "description": "",
+        "id": "as-a-user,-i-want-to-see-all-my-collections-on-my-postman;verify-that-401-code-returned-from-the-service-when-the-request-is-made-without-token",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 149823200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I send a \"invalid\" GET request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalid",
+                  "offset": 10
+                }
+              ],
+              "location": "CollectionsDefinition.i_send_a_get_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 265000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I get a 401 status code in the response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "401",
+                  "offset": 8
+                }
+              ],
+              "location": "CollectionsDefinition.i_get_a_status_code_in_the_response(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I want to see all my collections on my postman",
+    "description": "",
+    "id": "as-a-user,-i-want-to-see-all-my-collections-on-my-postman",
+    "keyword": "Feature",
+    "uri": "src/test/resources/collections.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@run"
+      }
+    ]
+  }
+]
